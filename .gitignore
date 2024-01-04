@@ -1,0 +1,6 @@
+**/.terraform/
+*.terraform.lock.hcl
+terraform.tfstate*
+secret_info.tf
+.terraform.tfstate.lock.info
+**/secret_info.tf
