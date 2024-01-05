@@ -1,3 +1,14 @@
+variable "my_ip" {
+  type = string
+}
+
+variable "my_client_id" {
+  type = string
+}
+
+variable "my_client_secret" {
+  type = string
+}
 
 terraform {
   required_providers {
@@ -24,6 +35,10 @@ module "networking" {
   location           = "UK South"
   vnet_address_space = ["10.0.0.0/16"]
 
+  # Pass the required variables
+  my_ip              = var.my_ip
+  my_client_id       = var.my_client_id
+  my_client_secret   = var.my_client_secret
 }
 
 module "aks_cluster" {
@@ -44,4 +59,8 @@ module "aks_cluster" {
   worker_node_subnet_id       = module.networking.worker_node_subnet_id
   aks_nsg_id                  = module.networking.aks_nsg_id
 
+  # Pass the required variables
+  my_ip              = var.my_ip
+  my_client_id       = var.my_client_id
+  my_client_secret   = var.my_client_secret
 }

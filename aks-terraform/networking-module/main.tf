@@ -1,4 +1,3 @@
-# networking-module/main.tf
 
 # Create the Azure Resource Group for networking resources
 resource "azurerm_resource_group" "networking" {

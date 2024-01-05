@@ -1,5 +1,6 @@
 # aks-cluster/main.tf
 # Create the AKS cluster
+
 resource "azurerm_kubernetes_cluster" "aks_cluster" {
   name                = var.aks_cluster_name
   location            = var.cluster_location
