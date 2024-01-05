@@ -1,6 +1,6 @@
 **/.terraform/
 *.terraform.lock.hcl
 terraform.tfstate*
-secret_info.tf
+secret_info.py
 .terraform.tfstate.lock.info
-**/secret_info.tf
+**/secret_info.py
