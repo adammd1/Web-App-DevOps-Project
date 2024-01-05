@@ -17,16 +17,13 @@ variable "vnet_address_space" {
 }
 
 variable "my_ip" {
-  description = "Your IP address for security rules"
   type        = string
 }
 
 variable "my_client_id" {
-  description = "Your Azure AD Service Principal client ID"
   type        = string
 }
 
 variable "my_client_secret" {
-  description = "Your Azure AD Service Principal client secret"
   type        = string
 }
