@@ -22,5 +22,5 @@ steps:
     connectionType: 'azureResourceManager'
     azureSubscriptionConnection: 'Adam Mahiddine(148cfaa9-003e-44fb-8981-4c9a371fed59)'
     azureResourceGroup: 'networking-rg'
-    kubernetesCluster: 'terraform-aks-cluster'
+    kubernetesCluster: 'terraform-aks-cluste'
     manifests: 'application-manifest.yaml'
