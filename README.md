@@ -60,3 +60,19 @@ To run the application, you simply need to run the `app.py` script in this repos
 ## License
 
 This project is licensed under the MIT License. For more details, refer to the [LICENSE](LICENSE) file.
+
+
+
+## screenshots
+1
+![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/f8c3059e-a888-44d7-8fb1-45bde79e7e25)
+2
+![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/b6646069-40f1-49cd-857e-01bf72b78096)
+3
+![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/0689b05b-df95-439a-8ff7-2c8353e9d578)
+4
+![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/f1bf295c-6680-467d-9d65-3bdd7f403738)
+
+
+
+
