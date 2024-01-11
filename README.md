@@ -64,14 +64,11 @@ This project is licensed under the MIT License. For more details, refer to the [
 
 
 ## screenshots
-1
-![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/f8c3059e-a888-44d7-8fb1-45bde79e7e25)
-2
-![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/b6646069-40f1-49cd-857e-01bf72b78096)
-3
-![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/0689b05b-df95-439a-8ff7-2c8353e9d578)
-4
-![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/f1bf295c-6680-467d-9d65-3bdd7f403738)
+task 2:
+![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/575e870a-44ce-403e-91cf-3e860421bab6)
+![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/a6e408df-8473-4f9e-81b8-7e0a3b1c2107)
+![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/0f5b148d-f058-4a19-a693-3462a7a530dd)
+![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/179a6dd5-0915-4d0b-8b76-e5dac265704a)
 
 
 
