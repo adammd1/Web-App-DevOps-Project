@@ -61,9 +61,35 @@ To run the application, you simply need to run the `app.py` script in this repos
 
 This project is licensed under the MIT License. For more details, refer to the [LICENSE](LICENSE) file.
 
+# UPDATES
 
+## Delivery Date Feature
+This addition introduces the ability to track delivery dates. This feature was reverted and is no longer in use.
 
-## screenshots
+## Containerization with Docker
+
+**Containerization Process**
+Python 3.8-slim for Flask app, installed dependencies from requirements.txt, exposed port 5000, created startup command.
+Build and run the image, pushed it to Docker Hub.
+
+## Defining networking services & an AKS cluster with IaC
+Created aks-terraform directory with two modules: networking-module , aks-cluster-module
+
+-networking-module:
+variables.tf: Defines the input variables for the networking module, these include resource_group_name, location and vnet_address_space.
+main.tf: Configures the essential networking resources for the AKS cluster, Azure Resource Group, Virtual Network (VNet), Control Plane Subnet, Worker Node Subnet, and Network Security Group (NSG), and defines inbound rules within NSG
+outputs.tf: Defines the output variables, vnet_id, control_plane_subnet_id, worker_node_subnet_id, networking_resource_group_name, aks_nsg_id
+
+-aks-cluster-module:
+variables.tf: Defines the input variables for the aks, aks_cluster_name, cluster_location, dns_prefix, kubernetes_version, service_principal_client_id, service_principal_secret
+main.tf: Creates aks cluster, node pool and service principle.
+outputs.tf: Defines the output variables, aks_cluster_name, aks_cluster_id, aks_kubeconfig
+
+Then initilaise from the aks-terrafrom module: terraform init
+
+## Creating an AKS cluster with IaC
+
+## Screenshots
 task 2:
 ![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/575e870a-44ce-403e-91cf-3e860421bab6)
 ![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/a6e408df-8473-4f9e-81b8-7e0a3b1c2107)
