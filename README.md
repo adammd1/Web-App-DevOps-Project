@@ -130,6 +130,20 @@ Create AKS service connection, modify pipeline for kubernetes deployment and use
 
 Monitor pods status and use port forwarding to test locally, verify deployment and application functionality.
 
+## AKS Cluster Monitoring
+
+Enable container insights
+
+Monitor the metric charts:
+
+Average Node CPU Usage
+![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/575e870a-44ce-403e-91cf-3e860421bab6)
+Average Pod Count
+![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/a6e408df-8473-4f9e-81b8-7e0a3b1c2107)
+Used Disk Percentage
+![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/0f5b148d-f058-4a19-a693-3462a7a530dd)
+Bytes Read/Written per Second
+![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/179a6dd5-0915-4d0b-8b76-e5dac265704a)
 ## Screenshots
 task 2:
 ![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/575e870a-44ce-403e-91cf-3e860421bab6)
