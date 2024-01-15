@@ -167,6 +167,12 @@ For CPU and memory, trigger at >80%, setup email notifications
 
 
 
+systems architecture screenshot:
+![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/a46385b2-8ecd-4644-b453-ba05480fa555)
+
+
+
+
 
 
 
