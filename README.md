@@ -53,14 +53,6 @@ To run the application, you simply need to run the `app.py` script in this repos
 
 - **Database:** The application employs an Azure SQL Database as its database system to store order-related data.
 
-## Contributors 
-
-- [Maya Iuga]([https://github.com/yourusername](https://github.com/maya-a-iuga))
-
-## License
-
-This project is licensed under the MIT License. For more details, refer to the [LICENSE](LICENSE) file.
-
 # UPDATES
 
 ## Delivery Date Feature
@@ -164,13 +156,35 @@ Trigger alarm at >90% disk usage, check every 5 minutes with 15 minutes loopback
 
 For CPU and memory, trigger at >80%, setup email notifications
 
+## AKS Integration with Azure Key Vault for Secrets Management
+
+Create Azure Key Vault, assign Key Vault administrator role to microsoft entra ID
+
+Create four secrets in Key Vault for database credentials, database-name, server-name, server-password, server-username
+
+Enable managed identity for AKS cluster
+
+Integrate Azure Identity and Azure Key Vault libraries into Python:
+pip install azure-identity
+pip install azure-keyvault-secrets
+
+Make sure code uses managed identity credentials
+
+Update requirements file, Test modified application locally, Deploy modified application to AKS using Azure Pipeline CI/CD
+
+Conduct end-to-end testing in AKS environment
 
 
-
-systems architecture screenshot:
+## DevOps systems architecture:
 ![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/a46385b2-8ecd-4644-b453-ba05480fa555)
 
+## Contributors 
 
+- [Maya Iuga]([https://github.com/yourusername](https://github.com/maya-a-iuga))
+
+## License
+
+This project is licensed under the MIT License. For more details, refer to the [LICENSE](LICENSE) file.
 
 
 
