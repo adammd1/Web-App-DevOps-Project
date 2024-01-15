@@ -104,7 +104,12 @@ Create main.tf in aks-terraform directory and configure with client id, client s
 
 Integrate the networking module, input variables include resource_group_name, location, vnet_address_space
 
-Integrate the cluster module, input variables include cluster_name, location, dns_prefix, kubernetes_version, service_principal_client_id, service_principal_secret. There are also other variables referencing output variables from the networking module for the other input variables required by the cluster.
+Integrate the cluster module, input variables include cluster_name, location, dns_prefix, kubernetes_version, service_principal_client_id, service_principal_secret
+
+There are also other variables referencing output variables from the networking module for the other input variables required by the cluster, resource_group_name, vnet_id, control_plane_subnet_id, worker_node_subnet_id and aks_nsg_id
+
+add necessary files to .gitignore file to protect sensitive information
+
 
 
 ## Screenshots
