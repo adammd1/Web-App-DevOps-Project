@@ -122,6 +122,13 @@ Apply kubernetes manifest 'kubectl apply -f application-manifest.yaml', monitor 
 
 Test locally, use port forwarding 'kubectl port-forward <pod-name> 5000:5000', then access web applicaiton at http://127.0.0.1:5000
 
+## CI/CD Pipeline with Azure DevOps
+
+Create a project in Azure DevOps, assign email, configure github, use starter pipeline, set up service connection with personal access token, build and push Docker image.
+
+Create AKS service connection, modify pipeline for kubernetes deployment and use deployment manifest. 
+
+Monitor pods status and use port forwarding to test locally, verify deployment and application functionality.
 
 ## Screenshots
 task 2:
