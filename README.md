@@ -110,6 +110,17 @@ There are also other variables referencing output variables from the networking 
 
 add necessary files to .gitignore file to protect sensitive information
 
+## Kubernetes deployment to AKS
+
+Defined a Kubernetes Deployment named flask-app-deployment, with high availability and 2 replicas. 
+
+Utilise unique label app: flask-app , and specify container image and port 5000, implement rolling updates, add flask-app-service with internal communication on port 80 with ClusterIP service type.
+
+**Deploying to AKS**
+
+Apply kubernetes manifest 'kubectl apply -f application-manifest.yaml', monitor deployment feedback and verify the pods and services deployment status 
+
+Test locally, use port forwarding 'kubectl port-forward <pod-name> 5000:5000', then access web applicaiton at http://127.0.0.1:5000
 
 
 ## Screenshots
