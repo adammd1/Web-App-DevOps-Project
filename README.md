@@ -170,11 +170,11 @@ Integrate Azure Identity and Azure Key Vault libraries into Python:
 pip install azure-identity
 pip install azure-keyvault-secrets
 
-Make sure code uses managed identity credentials
+Make sure app.py code uses managed identity credentials
 
-Update requirements file, Test modified application locally, Deploy modified application to AKS using Azure Pipeline CI/CD
+Update requirements file, test modified application locally, deploy modified application to AKS using Azure Pipeline CI/CD
 
-Conduct end-to-end testing in AKS environment
+Conduct end-to-end testing in AKS environment 
 
 
 ## DevOps systems architecture:
