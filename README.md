@@ -36,6 +36,8 @@ For the application to succesfully run, you need to install the following packag
 - pyodbc (version 4.0.39)
 - SQLAlchemy (version 2.0.21)
 - werkzeug (version 2.2.3)
+- azure identity (version 1.15.0)
+- azure keyvault secrets (version 4.7.0)
 
 ### Usage
 
