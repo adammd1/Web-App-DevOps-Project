@@ -158,22 +158,11 @@ Find Warning Values in Container Logs
 Monitoring Kubernetes Events
 ![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/561624c2-7c7f-4d5b-906e-235adb0c56f6)
 
+**Alert rules for Disk Usage, CPU and Memory**
 
+Trigger alarm at >90% disk usage, check every 5 minutes with 15 minutes loopback, setup email notifications
 
-## Screenshots
-task 2:
-![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/575e870a-44ce-403e-91cf-3e860421bab6)
-![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/a6e408df-8473-4f9e-81b8-7e0a3b1c2107)
-![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/0f5b148d-f058-4a19-a693-3462a7a530dd)
-![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/179a6dd5-0915-4d0b-8b76-e5dac265704a)
-
-task 3:
-![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/fed151d9-c8e4-45de-a03f-7c1dd0690e42)
-![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/df914b7e-7d51-459d-b07f-c0dac6e826bb)
-![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/cd00d367-cfb7-4a07-bbb8-25e647d2db1d)
-![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/0237714b-879e-4df9-a2a1-c581a02dbe83)
-![image](https://github.com/adammd1/Web-App-DevOps-Project/assets/137420753/561624c2-7c7f-4d5b-906e-235adb0c56f6)
-
+For CPU and memory, trigger at >80%, setup email notifications
 
 
 
