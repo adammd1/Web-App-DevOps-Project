@@ -100,6 +100,12 @@ outputs.tf: Defines the output variables, aks_cluster_name, aks_cluster_id, aks_
 
 ## Creating an AKS cluster with IaC
 
+Create main.tf in aks-terraform directory and configure with client id, client secret, subscription id, tenant id
+
+Integrate the networking module, input variables include resource_group_name, location, vnet_address_space
+
+Integrate the cluster module, input variables include cluster_name, location, dns_prefix, kubernetes_version, service_principal_client_id, service_principal_secret. There are also other variables referencing output variables from the networking module for the other input variables required by the cluster.
+
 
 ## Screenshots
 task 2:
